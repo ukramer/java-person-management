@@ -4,8 +4,6 @@
 
 package com.uelikramer.personManagement.models;
 
-import org.jetbrains.annotations.NotNull;
-
 /**
  * This class represents a Person
  *
@@ -110,7 +108,7 @@ public class Person implements Comparable {
     }
 
     @Override
-    public int compareTo(@NotNull Object o) {
+    public int compareTo(Object o) {
         if (equals(o)) {
             return 0;
         }
